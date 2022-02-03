@@ -1,0 +1,41 @@
+{
+  "name": "@rsrini7/jdeps-search",
+  "version": "0.0.1",
+  "description": "CLI to search the Maven, Gradle, SBT, JBang dependencies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@rsrini7/jdeps-search": "bin/jdeps-search",
+    "jdeps-search": "bin/jdeps-search"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "mvn",
+    "gradle",
+    "sbt",
+    "jbang",
+    "search",
+    "java",
+    "jar",
+    "dependency"
+  ],
+  "repository": {
+    "url": "https://github.com/rsrini7/jdeps-search"
+  },
+  "author": "Srini",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "copy-to-clipboard": "^3.3.1",
+    "esm": "^3.2.25",
+    "proxy-agent": "^3.1.1",
+    "inquirer": "^7.3.3",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.4.1"
+  }
+}
