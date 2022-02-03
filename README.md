@@ -16,7 +16,7 @@ Prerequisite: node `10.9.0` or newer should be installed.
   -->
 
 ```bash
-npm install -g @rsrini7/jdeps-search
+npm install -g @rsrini/jdeps-search
 ```
 
 ## Usage: `jdeps-search <query-string>`

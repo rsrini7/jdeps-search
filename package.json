@@ -1,5 +1,5 @@
 {
-  "name": "@rsrini7/jdeps-search",
+  "name": "@rsrini/jdeps-search",
   "version": "0.0.1",
   "description": "CLI to search the Maven, Gradle, SBT, JBang dependencies",
   "main": "src/index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "@rsrini7/jdeps-search": "bin/jdeps-search",
+    "@rsrini/jdeps-search": "bin/jdeps-search",
     "jdeps-search": "bin/jdeps-search"
   },
   "publishConfig": {
