@@ -1,6 +1,6 @@
 {
   "name": "@rsrini/jdeps-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI to search the Maven, Gradle, SBT, JBang dependencies",
   "main": "src/index.js",
   "scripts": {

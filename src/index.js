@@ -51,10 +51,10 @@ function formatDependencyGradleGroovy(dependency) {
 
 function formatDependencyJbang(dependency) {
     return `
-        //DEPS '${dependency.groupId}:${dependency.artifactId}:${dependency.versions[0]}'
-        `;
+//DEPS ${dependency.groupId}:${dependency.artifactId}:${dependency.versions[0]}
+`;
 }
-
+        
 function formatDependencySbt(dependency) {
     return `
         libraryDependencies += "${dependency.groupId}" % "${dependency.artifactId}" % "${dependency.versions[0]}"
